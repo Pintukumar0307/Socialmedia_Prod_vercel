@@ -1,0 +1,171 @@
+.account {
+  box-sizing: border-box;
+}
+
+.account-post {
+  /* background-image: linear-gradient(to right, #fff5bc, #cec1ff); */
+  background-image: linear-gradient(to right, #bcffec, #c1cbff);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+
+.account-top {
+  padding: 2vmax;
+  box-sizing: border-box;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.account-top-main{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.account-name{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.foll{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin: 1vmax;
+  margin-left: 10px;
+}
+.foll >div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.account-top-name{
+  width: 43%;
+  text-align: left;
+}
+
+.account-top-other1{
+  margin: 10px;
+}
+.account-top-other1 button{
+  width: 20vw;
+  margin: 10px;
+  border: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  padding: 0.5vmax 1vmax;
+}
+
+.account-top-other2{
+  margin: 10px;
+
+}
+.account-top-other2 button{
+  width: 20vw;
+  margin: 10px;
+  border: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  padding: 0.5vmax 1vmax;
+}
+
+
+
+
+
+
+
+
+
+.account-top img:hover {
+  transform: scale(1.1);
+}
+
+.account-top img {
+  transition: all 0.5s;
+}
+
+.account-top > h5 {
+  margin: 2vmax;
+}
+
+.account-top  > a {
+  color: rgb(73, 73, 73);
+  text-decoration: none;
+  font: 100 1.2rem "Roboto";
+  text-align: center;
+  margin-top: 2vmax;
+  padding: 0.5vmax 1vmax;
+  transition: all 0.5s;
+}
+
+.account-top  > a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+}
+
+
+.account-top  > div > button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+}
+.account-top  > div > button {
+  border: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  padding: 0.5vmax 1vmax;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .account {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  
+  .account-top-name{
+    width: 100%;
+  }
+
+  .account-top-other1 button{
+     width: 38vw;
+      margin: 10px;
+  }
+  .account-top-other2 button{
+    width: 50vw;
+     margin: 10px;
+ }
+
+
+
+.accountright > a {
+    font: 100 1rem "Roboto";
+    margin-top: 6vw;
+  } 
+}
